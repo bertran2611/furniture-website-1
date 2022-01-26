@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+/* nav */
+.navbar{
+    padding: 3px 70px ;
+}
+
+
+
+/* header */
+.full-photo{
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.header-text{
+    color: white;
+    top: 35%;
+    left: 80px;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact-btn, .learn-btn{
+    background-color: #519259;
+    color: white;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-btn:hover, .learn-btn:hover{
+    background-color: #064635;
+    color: white;
+}
+
+
+/* About */
+.about{
+    width: 70%;
+    margin: 0 15%;
+    background-color: #fff;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.about-us-photo{
+    width: 50%;
+    margin: 40px 0 50px 20%;
+}
+
+.about-text{
+    top: 75px;
+    right: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* contact */
+.contact-us{
+    background-color: grey;
+}
+
+
+
+@media (max-width: 770px){
+    .navbar{
+        padding: 5px 5px;
+    }
+
+    .full-photo{
+        width: 200%;
+        bottom: 150px;
+        position: absolute;
+    }
+
+    .header-text{
+        left: 20px;
+        top: 20px;
+        position: relative;
+    }
+
+    .about-us-photo{
+        margin-top: 50%;
+        text-align: center;
+        width: 70%;
+    }
+
+    .about-text{
+        padding: 0 10%;
+        right: 0;
+    }
+}
