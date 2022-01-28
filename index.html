@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="styles.css">
 
     <!-- title -->
-    <title>On Progress</title>
+    <title>On Progress | Amadeusbranco Furniture</title>
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/cc30848afe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -40,7 +43,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
 
 
@@ -56,6 +59,7 @@
                 </ul>
               </li>
 
+
             </ul>
 
             <!-- <form class="d-flex">
@@ -70,9 +74,11 @@
     <!-- Header -->
     <div id="home" class="header">
         <div class="header-text">
-            <h1 style="font-size: 100;">Halo Semua,</h1>
-            <h2>Selamat Datang!</h2>
-            <button type="button" class="btn btn-lg contact-btn">Contact Us</button>
+            <h1 style="font-size: 100;" class="halo">Halo Semua,</h1>
+            <h2 class="selamat-datang">Selamat Datang!</h2>
+            <a href="#contact">
+              <button type="button" class="btn btn-lg contact-btn"> Contact Us</button>
+            </a>
         </div>
     
         <img class="full-photo" src="images/header.jpg" alt="">
@@ -100,9 +106,74 @@
 
     </div>  
 
+    <!-- why us? -->
+    <div class="row why">
+        <h1 style="margin: 0 0 5% 0;">Why Us?</h1>
+
+        <div class="col-lg-4 why-col">
+            <i class="fas fa-chair fa-5x fas-why"></i>
+            <h2 style="margin: 0 0 25px 0;">Best Quality</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem magnam officia minus iste, tempora doloribus quod voluptates, ipsa placeat consectetur fugiat. Impedit at odit accusantium atque reiciendis aspernatur est!</p>
+        </div>
+
+        <div class="col-lg-4 why-col">
+            <i class="fas fa-truck fa-5x fas-why"></i>
+            <h2 style="margin: 0 0 25px 0;">Fast Delivery</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sequi, molestiae officia similique error porro culpa eius, aut beatae consequatur impedit. Temporibus, atque magnam dicta iure nisi quis enim eaque.</p>
+        </div>
+
+        <div class="col-lg-4 why-col">
+            <i class="fas fa-couch fa-5x fas-why"></i>
+            <h2 style="margin: 0 0 25px 0;">Comfort Priority</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe culpa, natus facere autem minus perspiciatis, voluptate laudantium vitae eos velit expedita nisi dolor, maiores maxime consectetur ipsam necessitatibus reiciendis.</p>
+        </div>
+    </div>
+
     <!-- contact-us -->
-    <div class="contact-us">
+    <div id="contact" class="contact-us">
+        <h1>Contact Us</h1>
+
+      <div class="row row-contact">
+
+        <div class="col-lg-6">
           
+          <div class="contact-email-form">
+             <h4>Enquiry</h4>
+            <form action="mailto:bertrandusgab2611@gmail.com" method="post" enctype="text/plain">
+              <p style="margin: 10px 0 0 0">Name:</p>
+              <input type="text" name="name" size="30">
+
+              <p style="margin: 10px 0 0 0">Email:</p>
+              <input type="email" name="email" size="30">
+
+              <p style="margin: 10px 0 0 0">Comment:</p>
+              <input type="text" name="comment" size="40">
+
+              <br> 
+              
+              <button type="submit" value="Send" class="btn btn-lg send-btn">Send</button>
+              <button type="reset" value="Reset" class="btn btn-lg send-btn">Reset</button>
+              
+            </form>
+
+          </div>
+
+          <br><br>
+
+          <h4 style="text-align: justify;">Address</h4>
+          <p>
+            2880 Broadway, New York, NY 10025, USA
+          </p>
+
+          <h4></h4>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+          
+        </div>
+
+      </div>
     </div>
 
 </body>

@@ -6,6 +6,14 @@ p{
     text-align: justify;
 }
 
+a{
+    color: #519259;
+}
+
+a:hover{
+    color: #064635;
+}
+
 /* nav */
 .navbar{
     padding: 3px 70px ;
@@ -41,6 +49,28 @@ p{
     background-color: #064635;
     color: white;
 }
+    /* greetings */
+.halo::after{
+    content: "";
+    font-size: 0px;
+}
+
+.halo:hover:after{
+    content: "(Hi Everyone)";
+    font-size: 30px;
+    font-style: italic;
+}
+
+.selamat-datang::after{
+    content: "";
+    font-size: 0px;
+}
+
+.selamat-datang:hover:after{
+    content: "(Welcome)";
+    font-size: 20px;
+    font-style: italic;
+}
 
 
 /* About */
@@ -66,12 +96,57 @@ p{
     z-index: 1;
 }
 
+/* why */
+.why{
+    margin: 18% 0 40px 0;
+    text-align: center;
+}
+
+.why-col{
+    padding: 0 70px;
+}
+
+.fas-why{
+    margin: 0 0 20px 0;
+    bottom: 0px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.fas-why:hover{
+    bottom: 20px;
+    color: #519259;
+}
 
 /* contact */
 .contact-us{
-    background-color: grey;
+    margin: 0 0 0 0;
+    padding: 20px 0 0 0;
+    color: white;
+    background-color: #519259;
+    text-align: center;
+}
+.row-contact{
+    padding: 40px 200px ;
 }
 
+.contact-email-form{
+    text-align: left;
+}
+
+.send-btn{
+    background-color: #fff;
+    color: black;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.send-btn:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
 
 
 @media (max-width: 770px){
