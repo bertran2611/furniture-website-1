@@ -20,7 +20,7 @@
     <script src="https://kit.fontawesome.com/cc30848afe.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
 
@@ -62,10 +62,6 @@
 
             </ul>
 
-            <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
           </div>
 
         </div>
@@ -86,26 +82,27 @@
     </div>
 
     <!-- About -->
-    <div id="about" class="row about">
+    <div class="about-back">
+      <div id="about" class="row about">
+        
+          <div class="About-Us col-lg-6">
+              <img class="about-us-photo" src="images/about-photo.jpg" alt="">
+          </div>
 
-        <div class="About-Us col-lg-6">
-            <img class="about-us-photo" src="images/about-photo.jpg" alt="">
-        </div>
+          <div class="col-lg-6 about-text">
+              <h1>About Us</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus praesentium quisquam ipsam quibusdam excepturi repellat accusantium inventore magnam, facere quia, autem pariatur? Soluta minus corrupti vel quasi, animi veritatis veniam
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam odit sed autem et sit fugiat, mollitia soluta, excepturi voluptatibus dolore dicta totam error nesciunt a ipsum dolorum in. Voluptas!
+              </p>
 
-        <div class="col-lg-6 about-text">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus praesentium quisquam ipsam quibusdam excepturi repellat accusantium inventore magnam, facere quia, autem pariatur? Soluta minus corrupti vel quasi, animi veritatis veniam
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam odit sed autem et sit fugiat, mollitia soluta, excepturi voluptatibus dolore dicta totam error nesciunt a ipsum dolorum in. Voluptas!
-            </p>
+              <p style="color: gray;">Photo by <a href="https://unsplash.com/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Toa Heftiba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+              </p>
 
-            <p style="color: gray;">Photo by <a href="https://unsplash.com/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </p>
+              <a href="About.html"><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+          </div>  
 
-            <button type="button" class="btn btn-lg learn-btn">Learn More</button>
-        </div>  
-
-    </div>  
-
+      </div>  
+    </div>
     <!-- why us? -->
     <div class="row why">
         <h1 style="margin: 0 0 5% 0;">Why Us?</h1>
@@ -127,6 +124,123 @@
             <h2 style="margin: 0 0 25px 0;">Comfort Priority</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe culpa, natus facere autem minus perspiciatis, voluptate laudantium vitae eos velit expedita nisi dolor, maiores maxime consectetur ipsam necessitatibus reiciendis.</p>
         </div>
+    </div>
+
+    <!-- slide photo -->
+    <div class="slide-photo">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="images/slide/spacejoy-q3Qd86sfaoU-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item carousel-photo2">
+            <img src="images/slide/spacejoy-KSfe2Z4REEM-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/slide/spacejoy-AAy5l4-oFuw-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+    </div>
+
+    <!-- photo -->
+    <div>
+      <h1 style="text-align: center; margin: 40px 0;">Our Product</h1>
+
+      <div class="photo row row-photo">
+
+       <div class="col-lg-4 photo-photo">
+          <img class="photo-photo2" src="images/indoor-comf.jpg" alt="">
+          <div class="text-photo">
+            
+            <h4>Indoor Furnishing</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+            <p>Photo by <a href="https://unsplash.com/@nathanrjliving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Oakley</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 photo-photo">
+            <img class="photo-photo1" src="images/laurence-katz-MkTh65JGIlU-unsplash.jpg" alt="">
+
+            <div class="text-photo">
+              <h4>Kitchen Furnishing</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+              <p>Photo by <a href="https://unsplash.com/@yuliabretman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yulia Bretman</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 photo-photo">   
+          <img class="photo-photo3" src="images/Stylish-comf.jpg" alt="">
+            <div class="text-photo">
+              <h4>Outdoor Furnishing</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+              <p>Photo by <a href="https://unsplash.com/@coohom?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Wang</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+            </div>     
+        </div>
+
+        <div class="col-lg-4 photo-photo">
+          <img class="photo-photo2" src="images/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg" alt="">
+          <div class="text-photo">
+            
+            <h4>Indoor Furnishing</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+            <p>Photo by <a href="https://unsplash.com/@jipy32?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jean-Philippe Delberghe</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 photo-photo">
+            <img class="photo-photo1" src="images/jean-philippe-delberghe-T5BF4OyQLwU-unsplash.jpg" alt="">
+
+            <div class="text-photo">
+              <h4>Kitchen Furnishing</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+              <p>Photo by <a href="https://unsplash.com/@jipy32?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jean-Philippe Delberghe</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 photo-photo">   
+          <img class="photo-photo3" src="images/laura-lauch-rvftn4hX7AY-unsplash.jpg" alt="">
+            <div class="text-photo">
+              <h4>Outdoor Furnishing</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos accusantium suscipit ratione aut asperiores culpa eaque nihil voluptates, consequuntur veniam! Reiciendis culpa blanditiis distinctio assumenda deleniti, totam esse dolor eius?</p>
+              <p>Photo by <a href="https://unsplash.com/@lauchmaedchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Lauch</a> on <a href="https://unsplash.com/s/photos/furnitures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+              <a href=""><button type="button" class="btn btn-lg learn-btn">Learn More</button></a>
+            </div>     
+        </div>
+
+    </div>
+      
     </div>
 
     <!-- contact-us -->
@@ -169,7 +283,11 @@
         </div>
 
         <div class="col-lg-6">
-          <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            </div>
+          </div>
           
         </div>
 
