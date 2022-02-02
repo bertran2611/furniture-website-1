@@ -9,6 +9,7 @@ p{
 
 a{
     color: #519259;
+    text-decoration: none;
 }
 
 a:hover{
@@ -206,11 +207,11 @@ a:hover{
 
 @media (max-width: 770px){
     .navbar{
-        padding: 5px 5px;
+        padding: 5px 0px;
     }
 
     .full-photo{
-        width: 200%;
+        width: 70rem;
         bottom: 150px;
         position: absolute;
     }
@@ -242,5 +243,38 @@ a:hover{
 
     .photo-photo2, .photo-photo3{
         padding: 50px 0 0 0;
+    }
+
+    .slide-photo{
+        visibility: hidden;
+    }
+
+    .row-photo{
+        margin: 0 0 0 0;
+    }
+
+    .text-photo{
+        text-align: center;
+        padding: 20px 10px 0 10px;
+    }
+
+    .why-col{
+        padding: 0 20px;
+    }
+
+    .gmap_canvas{
+        visibility: hidden;
+    }
+
+    .contact-us{
+        padding: 20px 0 0 0;
+    }
+
+    .why{
+        margin: 30rem 0 0 0;
+    }
+
+    .row-photo-all{
+        margin: -30rem 0 0 0;
     }
 }
