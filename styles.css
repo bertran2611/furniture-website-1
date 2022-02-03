@@ -203,7 +203,27 @@ a:hover{
     z-index: 0;
 }
 
+/* footer */
+.disclaimer{
+    padding: 2rem;
+    text-align: center;
+}
 
+.footer{
+    
+    background-color: rgb(216, 216, 216);
+}
+.made-by{
+    padding: 1rem;
+}
+
+.social-footer-icon{
+    text-align: center;
+}
+
+.social-footer-icon-a{
+    margin: 0 4px;
+}
 
 @media (max-width: 770px){
     .navbar{
