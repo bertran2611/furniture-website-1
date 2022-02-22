@@ -226,7 +226,17 @@ a:hover{
     margin: 0 4px;
 }
 
+#gmap_canvas{
+    width: 600;
+    height: 500;
+}
+
 @media (max-width: 770px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .navbar{
         padding: 5px 0px;
     }
@@ -283,8 +293,12 @@ a:hover{
         padding: 0 20px;
     }
 
-    .gmap_canvas{
-        visibility: hidden;
+    #gmap_canvas{
+        width: 50%;
+        height: 80%;
+        right: 200px;
+        position: relative;
+        z-index: 1;
     }
 
     .contact-us{
