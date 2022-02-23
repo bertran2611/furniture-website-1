@@ -1,1 +1,322 @@
-body{padding:0 0;margin:0 0;overflow-x:hidden}p{text-align:justify}a{color:#519259;text-decoration:none}a:hover{color:#064635}.navbar{padding:3px 70px}.full-photo{margin:0 auto 0 auto;width:100%;position:relative;bottom:70px;z-index:-1}.header-text{color:#fff;top:300px;left:80px;position:absolute;z-index:1}.contact-btn,.learn-btn{background-color:#519259;color:#fff;top:20px;position:relative;z-index:1}.contact-btn:hover,.learn-btn:hover{background-color:#064635;color:#fff}.halo::after{content:"";font-size:0}.halo:hover:after{content:"(Hi Everyone)";font-size:30px;font-style:italic}.selamat-datang::after{content:"";font-size:0}.selamat-datang:hover:after{content:"(Welcome)";font-size:20px;font-style:italic}.about{width:1100px;margin-left:auto;margin-right:auto;margin-top:60rem;left:0;right:0;background-color:#fff;top:100%;position:absolute;z-index:1;box-shadow:0 4px 8px 0 rgba(0,0,0,.2)}.about-us-photo{width:50%;margin:40px 0 50px 20%}.about-text{top:75px;right:10%;position:relative;z-index:1}.why{margin:250px 0 100px 0;text-align:center;position:relative;z-index:1;margin:30rem 0 -20rem 0}.why-col{padding:0 70px}.fas-why{margin:0 0 20px 0;bottom:0;position:relative;z-index:1;transition:0.3s}.fas-why:hover{bottom:20px}.contact-us{margin:0 0 0 0;padding:20px 0 0 0;color:#fff;background-color:#519259;text-align:center}.row-contact{padding:40px 200px}.contact-email-form{text-align:left}.send-btn{background-color:#fff;color:#000;top:20px;position:relative;z-index:1}.send-btn:hover{background-color:rgb(216,216,216);color:#000}.about-page{margin:60px 0 0 0}.photo{margin:0 50px;padding:0 0}.photo-photo{text-align:center;margin:4rem 0}.text-photo{text-align:left;padding:20px 50px 0 7%}.row-photo{margin:0 3 0 3rem;left:0;right:0;position:relative;z-index:1}.photo-photo1,.photo-photo2,.photo-photo3{height:35rem;width:25rem}.slide-photo{margin:5rem 10rem}.carousel-item{height:50%;bottom:15rem;position:relative;z-index:0}.disclaimer{padding:2rem;text-align:center}.footer{background-color:rgb(216,216,216)}.made-by{padding:1rem}.social-footer-icon{text-align:center}.social-footer-icon-a{margin:0 4px}#gmap_canvas{width:600;height:500}@media (max-width:770px){body{overflow-x:hidden}.navbar{padding:5px 0}.full-photo{width:70rem;bottom:150px;position:absolute}.header-text{left:20px;top:80px;position:relative}.about{visibility:hidden}.about-us-photo{margin-top:50%;text-align:center;width:70%}.about-text{padding:0 10%;right:0}.row-contact{padding:40px 10px}.photo-photo2,.photo-photo3{padding:50px 0 0 0}.slide-photo{visibility:hidden}.row-photo{margin:0 0 0 0}.text-photo{text-align:center;padding:20px 10px 0 10px}.why-col{padding:0 20px}#gmap_canvas{width:50%;height:80%;right:200px;position:relative;z-index:1}.contact-us{padding:20px 0 0 0}.why{margin:30rem 0 0 0}.row-photo-all{margin:-30rem 0 0 0}}
+body{
+    padding: 0 0;
+    margin: 0 0;
+    overflow-x: hidden;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: #519259;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #064635;
+}
+
+
+/* nav */
+.navbar{
+    padding: 3px 70px ;
+}
+
+
+
+/* header */
+
+
+
+.full-photo{
+    margin: 0 auto 0 auto;
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.header-text{
+    color: white;
+    top: 300px;
+    left: 80px;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact-btn, .learn-btn{
+    background-color: #519259;
+    color: white;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-btn:hover, .learn-btn:hover{
+    background-color: #064635;
+    color: white;
+}
+
+
+    /* greetings */
+.halo::after{
+    content: "";
+    font-size: 0px;
+}
+
+.halo:hover:after{
+    content: "(Hi Everyone)";
+    font-size: 30px;
+    font-style: italic;
+}
+
+.selamat-datang::after{
+    content: "";
+    font-size: 0px;
+}
+
+.selamat-datang:hover:after{
+    content: "(Welcome)";
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* About */
+
+.about{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.about-us-photo{
+    width: 50%;
+    margin: 40px 0 50px 20%;
+}
+
+.about-text{
+    top: 75px;
+    right: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+/* why */
+.why{
+    margin: 250px 0 100px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 30rem 0 -20rem 0;
+}
+.why-col{
+    padding: 0 70px;
+}
+
+.fas-why{
+    margin: 0 0 20px 0;
+    bottom: 0px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.fas-why:hover{
+    bottom: 20px;
+}
+
+/* contact */
+.contact-us{
+    margin: 0 0 0 0;
+    padding: 20px 0 0 0;
+    color: white;
+    background-color: #519259;
+    text-align: center;
+}
+.row-contact{
+    padding: 40px 200px ;
+}
+
+.contact-email-form{
+    text-align: left;
+}
+
+.send-btn{
+    background-color: #fff;
+    color: black;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.send-btn:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+
+/* about page */
+.about-page{
+    margin: 60px 0 0 0;
+}
+
+/* photo */
+.photo{
+    margin: 0 50px;
+    padding: 0 0px;
+}
+
+.photo-photo{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.text-photo{
+    text-align: left;
+    padding: 20px 50px 0 7%;
+}
+    
+.row-photo{
+    margin: 0 3 0 3rem;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.photo-photo1, .photo-photo2, .photo-photo3{
+    height: 35rem;
+    width: 25rem;
+}
+
+
+/* slide photo */
+.slide-photo{
+    margin: 5rem 10rem;
+}
+
+.carousel-item{
+    height: 50%;
+    bottom: 15rem;
+    position: relative;
+    z-index: 0;
+}
+
+/* footer */
+.disclaimer{
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer{
+    
+    background-color: rgb(216, 216, 216);
+}
+.made-by{
+    padding: 1rem;
+}
+
+.social-footer-icon{
+    text-align: center;
+}
+
+.social-footer-icon-a{
+    margin: 0 4px;
+}
+
+#gmap_canvas{
+    width: 600;
+    height: 500;
+}
+
+@media (max-width: 770px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        padding: 5px 0px;
+    }
+
+    .full-photo{
+        width: 70rem;
+        bottom: 150px;
+        position: absolute;
+    }
+
+    .header-text{
+        left: 20px;
+        top: 80px;
+        position: relative;
+    }
+
+    .about{
+        visibility: hidden;
+    }
+
+    .about-us-photo{
+        margin-top: 50%;
+        text-align: center;
+        width: 70%;
+    }
+
+    .about-text{
+        padding: 0 10%;
+        right: 0;
+    }
+
+    .row-contact{
+        padding: 40px 10px ;
+    }
+
+    .photo-photo2, .photo-photo3{
+        padding: 50px 0 0 0;
+    }
+
+    .slide-photo{
+        visibility: hidden;
+    }
+
+    .row-photo{
+        margin: 0 0 0 0;
+    }
+
+    .text-photo{
+        text-align: center;
+        padding: 20px 10px 0 10px;
+    }
+
+    .why-col{
+        padding: 0 20px;
+    }
+
+    #gmap_canvas{
+        width: 50%;
+        height: 80%;
+        right: 200px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .contact-us{
+        padding: 20px 0 0 0;
+    }
+
+    .why{
+        margin: 30rem 0 0 0;
+    }
+
+    .row-photo-all{
+        margin: -30rem 0 0 0;
+    }
+}
